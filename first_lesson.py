@@ -41,10 +41,16 @@ print(a * a)
 print(a / b)
 print('------------')
 
-#Strings are powerfull
+#Strings are powerful
 aString = 'nobody expects the spanish inquisition'
 print(aString)
 print(len(aString))
+
+# Strings can be shorted by stop and start Position
+print(aString[:-11])
+print(aString[:11])
+print(aString[-6:])
+print(aString[6:])
 
 
 
