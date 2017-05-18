@@ -2,7 +2,7 @@
 iterating over String
 '''
 
-str_name = 'Philipp'
+str_name = 'Honduras'
 
 # iterating over string
 for letter in str_name:
