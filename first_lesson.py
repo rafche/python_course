@@ -1,4 +1,3 @@
-
 # declaration
 pos_int = 3
 pos_float = 3.14
@@ -6,18 +5,15 @@ fake_int = '3'
 string_ = 'hello world'
 neg_float = pos_float * -1
 
-
 # print() --> Output Console
 print(pos_int)
 print(pos_float)
 print(fake_int)
 print('------------')
 
-
-# abs() --> print only positive Numbst
+# abs() --> print only positive Numbers
 print(neg_float)
 print(abs(neg_float))
-
 
 # print multiple Items
 print(pos_int, pos_float, fake_int, string_)
@@ -29,7 +25,6 @@ print('------------')
 # use instead comma
 print(pos_int, pos_float)
 print('------------')
-
 
 # print() --> Output Console
 print('------------')
@@ -46,7 +41,7 @@ print(pos_int * pos_int)
 print(pos_int / pos_float)
 print('------------')
 
-#Strings are powerful
+# Strings are powerful
 aString = 'nobody expects the spanish inquisition'
 print(aString)
 print(len(aString))
@@ -68,7 +63,7 @@ print(word)
 
 print('------ Casting to diff. Formats ------')
 
-#print(b - c) // Type Error
+# print(b - c) // Type Error
 
 # casting to datatype int, float, string
 print(pos_float - int(fake_int))
@@ -77,9 +72,10 @@ print(type(pos_int))
 print(type(str(pos_int)))
 
 
+# lists
 
 
 
-
+# dictionary
 
 
