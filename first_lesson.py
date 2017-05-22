@@ -72,7 +72,9 @@ print('------ Casting to diff. Formats ------')
 
 # casting to datatype int, float, string
 print(pos_float - int(fake_int))
-
+print()
+print(type(pos_int))
+print(type(str(pos_int)))
 
 
 
