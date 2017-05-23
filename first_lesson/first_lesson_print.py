@@ -104,11 +104,11 @@ print(type(str(pos_int)))
 
 
 # let's try some exercises
-# ex_1 write an application that adding and printing the length of 2 Strings
-# ex_2 write an application that counting the words of an sentence
-# ex_3 reverse the order of Words in a sentence
-# ex_4
-# ex_5 counting the longest sequence of letters in alphabetical order
+# ex_1_1 write an application that adding and printing the length of 2 Strings
+# ex_1_2 write an application that counting the words of an sentence
+# ex_1_3 reverse the order of Words in a sentence
+# ex_1_4
+# ex_1_5 counting the longest sequence of letters in alphabetical order
 
 # functions
 
