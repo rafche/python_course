@@ -1,5 +1,6 @@
 """
 --> 2 Strings, <-- len(a) + len(b)
+adding the length of two 
 """
 
 first_string = str(input('please enter the first String\n'))

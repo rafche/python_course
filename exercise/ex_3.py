@@ -1,5 +1,6 @@
 """
 --> sentence, <-- reverse sentence
+order the words in a sentence in reverse
 """
 reversed_sentence = ''
 
