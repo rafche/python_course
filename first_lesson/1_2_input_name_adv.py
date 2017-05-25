@@ -10,16 +10,17 @@ for i in range(0, 10):
     print(i)
 
 
-# it is also possible to other way around
-my_factory = faker.Factory.create()
 
-# my_factory is a Generator object
-# which means it is iteratable from outside the Object / function
-print(type(my_factory))
+# another way
+
+my_factory = faker.Factory.create()
 
 for i in range(10):
     print('hello {}'.format(my_factory.name()))
 
 
 
+print(type(my_factory))
+# my_factory is a Generator object
+# which means it is iterable from outside the Object / function
 
