@@ -97,7 +97,9 @@ print()
 print(type(pos_int))
 print(type(str(pos_int)))
 
+# formating strings
 
+print('{0:*^16}'.format('hi'))
 
 
 
