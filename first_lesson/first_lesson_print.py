@@ -97,9 +97,8 @@ print()
 print(type(pos_int))
 print(type(str(pos_int)))
 
-# if else elif
 
-# loops
+
 
 
 
