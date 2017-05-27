@@ -83,7 +83,43 @@ for word in sentence.split():
 
 print('\n\n-----------\n\n')
 
+
+# continue Statement can be used to jump over
+
+for letter in 'pythonic':
+    if letter == 'o':
+        continue
+    print(letter)
+
+print('\n\n-----------\n\n')
+
+
 # let's try some exercises
 # ex_1_7 find the longest sequence of increasing letters in a String
+
+
+# ----------- while loop -----------
+# the loop is running until the statement is False
+# python doesn't support x++
+
+x = 0
+while x < 10:
+    print(x)
+    x += 1
+
+print('\n\n-----------\n\n')
+
+
+# can also apply to truthiness of objects
+
+w = ['one', 'two', 'three', 'four', 'five']
+
+while w:
+    print(w)
+    w.pop(0)
+
+print('\n\n-----------\n\n')
+
+
 
 
