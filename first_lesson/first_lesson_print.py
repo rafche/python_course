@@ -14,7 +14,7 @@ print(pos_int)
 print(neg_int)
 print(pos_float)
 print(fake_int)
-print('------------')
+print('------------\n\n')
 
 
 # abs() --> print only positive Numbers
@@ -23,18 +23,23 @@ print(neg_float)
 print(abs(-1*(2*4)))
 print(abs(neg_float))
 print(abs(neg_float + neg_float))
-print('------------')
+print('------------\n\n')
 
 
 # print multiple Items
 print('------ printing mixed Items (Numbers, String) ------')
 print(pos_int, pos_float, fake_int, string_)
 print(pos_int, '-', pos_float, '-', fake_int + '-' + string_)
-print('------------')
+print('------------\n\n')
 
 
 # printing meaningful sentences
 # in different ways
+# the old way, was very C like
+
+# old way
+print('my positive Integer is %d' %(pos_int))
+
 print('------ printing sentences with placeholder ------')
 print('The sum of', pos_int, 'and', neg_int, 'is', pos_int + neg_int)
 print('The sum of {} and {} is {}'.format(pos_int, neg_int, pos_int + neg_int))
@@ -45,7 +50,7 @@ print('The sum of ' + str(pos_int) + ' and ' + str(neg_int) + ' is '+ str(pos_in
 # print(a + d)
 # use instead comma
 print(pos_int, pos_float)
-print('------------')
+print('------------\n\n')
 
 
 # print() --> Output Console
@@ -54,7 +59,7 @@ print(type(pos_int))
 print(type(pos_float))
 print(type(fake_int))
 print(type(string_))
-print('------------')
+print('------------\n\n')
 
 
 # calculation in print statement is possible
@@ -64,7 +69,7 @@ print(pos_int * pos_int)
 print(pos_int * neg_int)
 print(pos_int / pos_float)
 print(pos_int / 2 * 20)
-print('------------')
+print('------------\n\n')
 
 # Strings are powerful
 print('------ lets talk about strings ------')
@@ -86,18 +91,28 @@ print(aString[6:])
 sentence = 'is honduras the same as belize'
 word = sentence.split(' ')
 print(word)
-print('------------')
+print('------------\n\n')
 
-# print(b - c) // Type Error
+#print(pos_int - fake_int) # Type Error
 
-# casting to datatype int, float, string
-print('------ Casting to diff. Formats ------')
+# Type Conversion
+# str()     -->     for String
+# int()     -->     for String
+# str()     -->     for String
+# float()   -->     for float
+
+print('------ casting to diff. Formats ------')
 print(pos_float - int(fake_int))
 print()
 print(type(pos_int))
 print(type(str(pos_int)))
+print(int(pos_float))
+print(float(pos_int))
 
-# formating strings
+
+
+
+# formatting strings
 
 print('{0:*^16}'.format('hi'))
 
