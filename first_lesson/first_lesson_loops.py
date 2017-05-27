@@ -70,8 +70,20 @@ print('\n\n-----------\n\n')
 for word in sentence.split():
     print(word)
 
+print('\n\n-----------\n\n')
+print('\n\n-----------\n\n')
+
+# print the word in a sentence reversed
+
+for word in sentence.split():
+    temp = ''
+    for letter in reversed(word):
+        temp += letter
+    print(temp)
+
+print('\n\n-----------\n\n')
 
 # let's try some exercises
-# ex_1_7
+# ex_1_7 find the longest sequence of increasing letters in a String
 
 
