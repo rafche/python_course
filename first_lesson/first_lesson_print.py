@@ -2,7 +2,7 @@
 # python doesn't care which value your variable has
 pos_int = 3
 neg_int = - 4
-pos_float = 3.14
+pos_float = 3.14159265359
 fake_int = '3'
 string_ = 'hello world'
 neg_float = pos_float * -1
@@ -98,6 +98,7 @@ print('------------\n\n')
 # Type Conversion
 # str()     -->     for String
 # int()     -->     for String
+# chr()     -->     for character
 # str()     -->     for String
 # float()   -->     for float
 
@@ -108,13 +109,36 @@ print(type(pos_int))
 print(type(str(pos_int)))
 print(int(pos_float))
 print(float(pos_int))
-
-
+print('------------\n\n')
 
 
 # formatting strings
 
+# right align
+print('{:20f}'.format(pos_float))
+
+# center align
+print('{:^20f}'.format(pos_float))
+
+# center align
+print('{:^20.2f}'.format(pos_float))
+
+# left align
+print('{:<20f}'.format(pos_float))
+
+# 2 decimal places
+print('{:.2f}'.format(pos_float))
+
+# no decimal places
+print('{:.0f}'.format(pos_float))
+
+# no decimal places - which is not very useful with pi
+print('{:.2%}'.format(pos_float))
+
+
+
 print('{0:*^16}'.format('hi'))
+print('{0:.>16}'.format('hi'))
 
 
 
@@ -125,6 +149,8 @@ print('{0:*^16}'.format('hi'))
 # ex_1_3 reverse the order of Words in a sentence
 # ex_1_4
 # ex_1_5 counting the longest sequence of letters in alphabetical order
+
+
 
 # functions
 
