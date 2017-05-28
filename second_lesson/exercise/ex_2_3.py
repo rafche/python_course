@@ -35,13 +35,16 @@ def prn_header(order_details):
     :return:
     '''
     total = 0
+    tax = 0
     print('{0:-^32}'.format(' hard python cafe '))
 
     for order_item in order_details:
         print('{item:<15} {price:>14.2f} €'.format(item=order_item[0], price=order_item[1]))
         total += order_item[1]
     print('{0:-^32}'.format(''))
-    print('Grand Total{sum:>19.2f} €'.format(sum=total))
+    tax = total/100*20
+    print('Mwst 20%{tax:>22.2f} €'.format(tax=tax))
+    print('Grand Total{sum:>19.2f} €'.format(sum=total+tax))
 
 if __name__ == '__main__':
     # order_items = inputs()
@@ -49,12 +52,12 @@ if __name__ == '__main__':
 
 
     # for debugging
-    prn_header([['cola', 2],
-                ['fanta', 2],
-                ['almdudler', 2],
-                ['kaffee', 2.1],
-                ['frucade', 2.499],
-                ['frucade light', 2.499],
+    prn_header([['Cola', 2],
+                ['Fanta', 2],
+                ['Almdudler', 2],
+                ['Espresso', 2.1],
+                ['Frucade', 2.499],
+                ['Red Bull', 2.499],
                 ])
 
 
