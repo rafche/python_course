@@ -3,7 +3,7 @@
 
 def add(a, b):
     '''
-    :takes two parms, building sum:
+    :takes two parms, building sum
     :param a: first addend 
     :param b: second addend
     :return: sum of a,b
