@@ -2,7 +2,8 @@
 # if else elif
 
 pos_int = 16
-limit = 15
+limit = 16
+
 
 # if needs always statement which is true or false
 # if else statement don't need the else statement
@@ -34,7 +35,17 @@ else:
     if pos_int > limit:
         print('{} is greater than {}'.format(pos_int, limit))
     else:
-        print('{} is equal than {}'.format(pos_int, limit))
+        print('{} is equal to {}'.format(pos_int, limit))
+
+
+# combine conditions with 'and' or 'or'
+# Python doesn't support && or ||
+
+if not pos_int < limit and not pos_int > limit:
+    print('{} is equal to {}'.format(pos_int, limit))
+
+if pos_int < limit or pos_int > limit:
+    print('{} is NOT equal to {}'.format(pos_int, limit))
 
 
 # i use the chance to introduce a new type boolean
@@ -45,6 +56,5 @@ print(ex_bool)
 print(type(ex_bool))
 
 
-
-# Let's do some excersices
+# Let's do some exercises
 # ex1_6 type in your full name, an check which name is longer

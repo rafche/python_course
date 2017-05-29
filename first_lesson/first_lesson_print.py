@@ -145,15 +145,3 @@ print('{:.2%}'.format(pos_float))
 # ex_1_3 reverse the order of Words in a sentence
 # ex_1_4
 # ex_1_5 counting the longest sequence of letters in alphabetical order
-
-
-
-# functions
-
-# lists
-
-
-
-# dictionary
-
-
