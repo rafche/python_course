@@ -39,7 +39,7 @@ def prn_header(order_details):
     print('{0:-^32}'.format(' hard python cafe '))
 
     for order_item in order_details:
-        print('{item:<15} {price:>14.2f} €'.format(item=order_item[0], price=order_item[1]))
+        print('{item:<15} {price:.>14.2f} €'.format(item=order_item[0], price=order_item[1]))
         total += order_item[1]
     print('{0:-^32}'.format(''))
     tax = total/100*20
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
 
     # for debugging
-    prn_header([['Cola', 2],
+    prn_header([['Cola', 200],
                 ['Fanta', 2],
                 ['Almdudler', 2],
                 ['Espresso', 2.1],

@@ -114,16 +114,19 @@ print('------------\n\n')
 
 # formatting strings
 
-# right align
+# right align, 20 = total width, f = float
 print('{:20f}'.format(pos_float))
 
-# center align
+# center align, 20 = total width, ^ = center, f = float
 print('{:^20f}'.format(pos_float))
 
-# center align
+# center align, 20 = total width, ^ = center, f = float
 print('{:^20.2f}'.format(pos_float))
 
-# left align
+# center align, 20 = total width, ^ = center, * = fill rest with selected sign, f = float
+print('{:*^20.2f}'.format(pos_float))
+
+# left align,  20 = total width, < = left, f = float
 print('{:<20f}'.format(pos_float))
 
 # 2 decimal places
@@ -134,13 +137,6 @@ print('{:.0f}'.format(pos_float))
 
 # no decimal places - which is not very useful with pi
 print('{:.2%}'.format(pos_float))
-
-
-
-print('{0:*^16}'.format('hi'))
-print('{0:.>16}'.format('hi'))
-
-
 
 
 # let's try some exercises
