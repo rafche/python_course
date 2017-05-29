@@ -1,4 +1,5 @@
-# empty
+# lists are powerfull
+
 
 
 # let's try some exercises
