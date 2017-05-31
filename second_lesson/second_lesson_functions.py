@@ -33,6 +33,56 @@ o = add(5, o)
 print(o)
 
 
+# a function doesnt need a input or a return value
+
+def hello():
+    '''
+    :return: print hello world 
+    '''
+    print('hello World')
+
+
+hello()
+
+
+# it is important to pass parameters in the same order as defined
+
+def division(a, b):
+    return a / b
+
+
+print(division(15, 5))
+
+# there is a way to pass in different order, by using Keywords
+
+print(division(5, 15))
+
+print(division(b=5, a=15))
+
+# it i also possible to put a function in a function
+
+def stringrev(simple_string):
+    '''
+    --> String, <-- reversed upper and lower Case String
+    :param simple_string: input String 
+    :return: reversed String
+    '''
+    def reverse_case(letter):
+        if letter.islower() == True:
+            return letter.upper()
+        else:
+            return letter.lower()
+    '''
+    --> letter, <-- letter upper and lower case reversed 
+    '''
+    reversed_String = ''
+    for letter in simple_string:
+        temp_letter = reverse_case(letter)
+        reversed_String += temp_letter
+    return reversed_String
+
+print(stringrev('Why eleven is NOT called onety one'))
+
 # let's try some exercises
 # ex_2_4 write a function that takes 2 parameter (number) and return the higher number, or False if the numbers equal
 # ex_2_5 write a 'calculator' function, takes 2 numbers and one arithmetic Operator

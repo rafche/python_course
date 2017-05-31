@@ -23,7 +23,7 @@ def calculator(a, operator, b):
     elif operator == '/':
         return a / b
     else:
-        return 'operator unkown'
+        return 'unknown operator'
 
 first_number = float(input('please enter your fist number\n'))
 operator = str(input('please enter your Operator\n'))
