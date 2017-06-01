@@ -83,6 +83,13 @@ def stringrev(simple_string):
 
 print(stringrev('Why eleven is NOT called onety one'))
 
+# python also let you describe your input value, this is very needfull for the linting
+
+def lower_name(input_name : str):
+    return input_name.lower()
+
+
+
 # let's try some exercises
 # ex_2_4 write a function that takes 2 parameter (number) and return the higher number, or False if the numbers equal
 # ex_2_5 write a 'calculator' function, takes 2 numbers and one arithmetic Operator

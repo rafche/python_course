@@ -139,6 +139,17 @@ print('{:.0f}'.format(pos_float))
 print('{:.2%}'.format(pos_float))
 
 
+# swapping variables
+
+b_string = 'Monty'
+c_string = 'Python'
+
+print(b_string, c_string)
+
+b_string, c_string = c_string, b_string
+
+print(b_string, c_string)
+
 # let's try some exercises
 # ex_1_1 write an application that adding and printing the length of 2 Strings
 # ex_1_2 write an application that counting the words of an sentence

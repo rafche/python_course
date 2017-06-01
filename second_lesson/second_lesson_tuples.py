@@ -2,6 +2,7 @@
 # the content of a tuple can be everything (numbers, strings, tuples, )
 # once build, can't be modified
 
+
 tuple_1 = (1, 2, 3, 4)
 tuple_2 = ('hello', 'python', 4, 5)
 # you can iterate over a tuple
@@ -9,8 +10,8 @@ tuple_2 = ('hello', 'python', 4, 5)
 for element in tuple_1:
     print(element)
 
-# lets display index
-# tuples are zerobased
+# display index
+# tuples are zero-based
 
 for i, element in enumerate(tuple_2):
     print(i,' ', element)
@@ -25,4 +26,32 @@ print(tuple_2[1])
 # IndexError: tuple index out of range
 
 #print(tuple_2[200])
+
+# len() can applied to tuple
+
+print('len of tuple_1 = {}'.format(len(tuple_1)))
+
+
+# tuples can also contain other tuples
+
+tuple_3 = (1,2,3,(2,34.5,'ab'),(1,2,3))
+
+print('len of tuple_3 = {}'.format(len(tuple_1)))
+
+
+for element in tuple_3:
+    print(element, ' -- the type is {}'.format(type(element)))
+
+
+# unpacking tuples,
+
+tuple_4 = ('Time Bandit', 6, 34)
+
+ship, crew, length = tuple_4
+
+print(ship, crew, length)
+
+# this code will break if there are more values as expected
+
+
 
