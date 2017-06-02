@@ -138,6 +138,16 @@ print('{:.0f}'.format(pos_float))
 # no decimal places - which is not very useful with pi
 print('{:.2%}'.format(pos_float))
 
+print('------------\n\n')
+
+
+# f - strings
+# only in python 3.6
+name = 'Kelly Clarkson'
+title = 'Because of you'
+
+print(f'Name of the Artist: {name}')
+print(f'Name of the Song: {title}')
 
 # swapping variables
 
