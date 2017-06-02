@@ -149,6 +149,18 @@ title = 'Because of you'
 print(f'Name of the Artist: {name}')
 print(f'Name of the Song: {title}')
 
+# remember this string?
+# this String is using the 'older' .format format
+# just hit ALT + Enter and convert to F-String literal
+
+print('The sum of {} and {} is {}'.format(pos_int, neg_int, pos_int + neg_int))
+
+# automatically converted to f-sting
+# in my Opinion it's more readable
+print(f'The sum of {pos_int} and {neg_int} is {pos_int + neg_int}')
+
+
+
 # swapping variables
 
 b_string = 'Monty'
