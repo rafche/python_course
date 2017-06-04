@@ -5,6 +5,7 @@
 
 tuple_1 = (1, 2, 3, 4)
 tuple_2 = ('hello', 'python', 4, 5)
+
 # you can iterate over a tuple
 
 for element in tuple_1:
@@ -14,7 +15,7 @@ for element in tuple_1:
 # tuples are zero-based
 
 for i, element in enumerate(tuple_2):
-    print(i,' ', element)
+    print(i, ' ', element)
 
 # you can also print tuple by index like this
 
@@ -53,5 +54,11 @@ print(ship, crew, length)
 
 # this code will break if there are more values as expected
 
+# ship, crew = tuple_4
 
+# just add _ for ignoring the following values
+
+ship, crew, _ = tuple_4
+
+print(f'{ship} {crew}')
 
