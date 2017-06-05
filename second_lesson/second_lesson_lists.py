@@ -98,9 +98,17 @@ print(colors)
 colors.sort(reverse=True)
 print(colors)
 
+
 # list comprehensions
+# easy way to create lists
+
+stuff = [[c.upper(), len(c)] for c in colors]
+
+
+print(stuff)
 
 # let's try some exercises
 # ex_2_1 flat a list of lists to one list object
 # ex_2_2 type in your name, check of how many different letters your name consist
 # ex_2_6 showcase for mixed datatypes
+# ex_2_7 check if input list, contains colors of Rainbowflag
