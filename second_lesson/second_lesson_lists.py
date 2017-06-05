@@ -29,7 +29,7 @@ for element in some_list:
     print(element)
 
 
-# lists can contain everything a tuple can and more
+# lists can contain everything
 # for examples tuples
 
 print('\n\n---------------------')
@@ -38,6 +38,12 @@ another_list = ['a', 'b', 'c',('inside', 'tuple')]
 
 for element in another_list:
     print(element)
+
+
+# or other lists
+list_of_lists = []
+
+
 
 # let's try some exercises
 # ex_2_1 flat a list of lists to one list object
