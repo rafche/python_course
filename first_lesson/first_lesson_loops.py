@@ -6,8 +6,16 @@ word = 'Tohuwabohu'
 sentence = 'Lorem ipsum dolor sit amet...'
 
 # ----------- for loop -----------
-# looping from 0 to 9
+# numeric loops are different in python
+# range is technically seen a object(generator), that returns a sequence fo numbers
+# bee careful in python 2 range returns a list with every number, use instead xrange
 
+print(range(1,20))
+print(type(range(1,20)))
+
+
+
+# looping from 0 to 9
 for i in range(10):
     print(i)
 
@@ -22,13 +30,13 @@ for i in range(5, 10):
 print('\n\n-----------\n\n')
 
 
-# looping from 0 to 98, take every second number
+# looping from 0 to 99, take every second number
 # the third arg is the step width
 
 for i in range(0, 100, 2):
     print(i)
     if i >= 10:
-        print('i is greater than{}'.format(10))
+        print('i is greater than {}'.format(10))
         break
 
 print('\n\n-----------\n\n')
@@ -38,6 +46,8 @@ print('\n\n-----------\n\n')
 
 for i in range(0, 100):
     print(i)
+    if i == 50:
+        break
 
 print('\n\n-----------\n\n')
 
@@ -50,6 +60,15 @@ for letter in word:
 print('\n\n-----------\n\n')
 
 # you can also print the index
+# the return value is a tuple with the value and index
+
+for letter in enumerate(word):
+    print(letter)
+
+print('\n\n-----------\n\n')
+
+
+# tuples can be easily unpack
 
 for i, letter in enumerate(word):
     print(letter + ' has index of ', i)

@@ -3,9 +3,9 @@ import collections
 # named tuples are very useful for passing data to functions,....
 
 
-info_person = collections.namedtuple('person', 'first_name, second_name, age, sex')
+person_info = collections.namedtuple('person', 'first_name, second_name, age, sex')
 
-person_1 = info_person('Sarah','Parker', 40, 'f')
+person_1 = person_info('Sarah', 'Parker', 40, 'f')
 
 print(person_1)
 
