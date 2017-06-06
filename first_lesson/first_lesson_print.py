@@ -45,10 +45,7 @@ print('------------\n\n')
 
 # printing meaningful sentences
 # in different ways
-# the old way, was very C like
-
-# old way
-print('my positive Integer is %d' %(pos_int))
+# concat Strings & Numbers & Vars
 
 print('------ printing sentences with placeholder ------')
 print('The sum of', pos_int, 'and', neg_int, 'is', pos_int + neg_int)
@@ -62,6 +59,15 @@ print('The sum of ' + str(pos_int) + ' and ' + str(neg_int) + ' is '+ str(pos_in
 print(pos_int, pos_float)
 print('------------\n\n')
 
+# the old way, is very C like
+print('------ printing in different ways------')
+
+# old way
+print('my positive Integer is %d' %(pos_int))
+# newer way
+print('my positive Integer is {}'.format(pos_int))
+# fstring only in 3.6
+print(f'my positive Integer is {pos_int}')
 
 # print() --> Output Console
 print('------ printing the type ------')
