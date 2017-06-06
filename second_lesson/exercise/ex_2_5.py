@@ -29,4 +29,6 @@ first_number = float(input('please enter your fist number\n'))
 operator = str(input('please enter your Operator\n'))
 second_number = float(input('please enter your second number\n'))
 
-print(calculator(first_number, operator, second_number))
+result = calculator(first_number, operator, second_number)
+
+print(f'{first_number} {operator} {second_number} = {result}')

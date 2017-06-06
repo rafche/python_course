@@ -24,7 +24,7 @@ print(add(4, 5))
 
 c = add(5, 6)
 
-# you can call a function in a function, it'S also possible to call the same function
+# you can call a function in a function, it's also possible to call the same function
 
 print(add(add(5, 5), c))
 
@@ -33,7 +33,7 @@ o = add(5, o)
 print(o)
 
 
-# a function doesnt need a input or a return value
+# a function doesn't need an input or a return value
 
 def hello():
     '''
@@ -59,7 +59,7 @@ print(division(5, 15))
 
 print(division(b=5, a=15))
 
-# it i also possible to put a function in a function
+# it is also possible to put a function in a function
 
 def stringrev(simple_string):
     '''
@@ -83,7 +83,7 @@ def stringrev(simple_string):
 
 print(stringrev('Why eleven is NOT called onety one'))
 
-# python also let you describe your input value, this is very needfull for the linting
+# python also let you describe your input value, this is very helpful for the linting
 
 def lower_name(input_name : str):
     return input_name.lower()
