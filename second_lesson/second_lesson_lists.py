@@ -91,6 +91,7 @@ print('red' in sublist2)
 colors = ['red', 'blue', 'green', 'brown', 'purple', 'orange', 'pink', 'black']
 print(colors)
 print(sorted(colors))
+
 # sorted doesnt affect the element, it is possible to  apply on a tuple
 print(colors)
 colors.sort()
@@ -100,12 +101,17 @@ print(colors)
 
 
 # list comprehensions
-# easy way to create lists
+# easy way to create/transform lists
 
 stuff = [[c.upper(), len(c)] for c in colors]
 
-
 print(stuff)
+
+colors = [c.upper() for c in colors]
+
+print(colors)
+
+
 
 # let's try some exercises
 # ex_2_1 flat a list of lists to one list object
