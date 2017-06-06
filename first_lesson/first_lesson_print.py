@@ -1,4 +1,5 @@
 # declaration
+# http://pep8.org/
 # python doesn't care which value your variable has
 pos_int = 3
 neg_int = - 4
@@ -100,7 +101,7 @@ print('------------\n\n')
 # int()     -->     for String
 # chr()     -->     for character
 # str()     -->     for String
-# float()   -->     for float
+# floats()   -->     for float
 
 print('------ casting to diff. Formats ------')
 print(pos_float - int(fake_int))
