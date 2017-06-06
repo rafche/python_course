@@ -17,7 +17,16 @@ print(pos_float)
 print(fake_int)
 print('------------\n\n')
 
+# checking type
+# print(type(X)) --> Output Console
+print('------ printing Numbers ------')
+print(type(pos_int), '   ', pos_int)
+print(type(neg_int), '  ', neg_int)
+print(type(pos_float), ' ', pos_float)
+print(type(fake_int), '   ', fake_int)
+print('------------\n\n')
 
+# apply function on value in print Statement
 # abs() --> print only positive Numbers
 print('------ printing positive Numbers ------')
 print(neg_float)
