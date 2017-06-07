@@ -4,6 +4,7 @@ nearly finished
 """
 from randomwordgenerator import randomwordgenerator
 
+
 def init():
     '''
     :return: random word
@@ -22,6 +23,10 @@ def masked_word(secret_word: str, letters_guessed: list):
 
 
 def available_letters(letters_guessed):
+    '''
+    :param letters_guessed: list of guessed letters 
+    :return: available letters
+    '''
     alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g',
                 'h', 'i', 'j', 'k', 'l', 'm', 'n',
                 'o', 'p', 'q', 'r', 's', 't', 'u',
@@ -71,27 +76,27 @@ if __name__ == '__main__':
 
         if command == 'p':
             secret_word = init()
-            print(secret_word)
-
             while guesses < t_limit:
-                print(masked_word(secret_word, known_letters))
-                print(' -- available Letters -- ')
+                print('\n\n' + masked_word(secret_word, known_letters))
+
                 print(available_letters(known_letters))
-                input_letter = input('guess a letter\n')
+                input_letter = input('\n guess a letter\n')
 
                 if input_letter in known_letters:
                     print('letter already guessed')
                 else:
                     known_letters.append(input_letter)
 
-                if check_word_guessed(secret_word,known_letters):
+                if check_word_guessed(secret_word, known_letters):
+                    print(secret_word)
                     print('yippie, you won')
                     break
 
                 if input_letter not in secret_word:
                     guesses += 1
             else:
-                print('you lost')
+                print('you lost,')
+                print(secret_word + '\n\n')
 
         elif command == 'l':
             break
