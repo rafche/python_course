@@ -83,7 +83,8 @@ def stringrev(simple_string):
 
 print(stringrev('Why eleven is NOT called onety one'))
 
-# python also let you describe your input value, this is very helpful for the linting
+# python also let you describe your input type,
+# this is very helpful for the linting
 
 def lower_name(input_name : str):
     return input_name.lower()
