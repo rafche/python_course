@@ -1,5 +1,6 @@
 # declaration
 # http://pep8.org/
+# https://www.python.org/dev/peps/pep-0008/
 # python doesn't care which value your variable has
 pos_int = 3
 neg_int = - 4
