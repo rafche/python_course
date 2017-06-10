@@ -7,7 +7,7 @@ sentence = 'Lorem ipsum dolor sit amet...'
 
 # ----------- for loop -----------
 # numeric loops are different in python
-# range is technically seen a object(generator), that returns a sequence fo numbers
+# range is technically seen a object(generator), that returns a sequence of numbers
 # bee careful in python 2 range returns a list with every number, use instead xrange
 
 print(range(1,20))
