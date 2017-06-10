@@ -26,7 +26,7 @@ print(type(pos_float), ' ', pos_float)
 print(type(fake_int), '   ', fake_int)
 print('------------\n\n')
 
-# apply function on value in print Statement
+# applying a function on a value in print Statement
 # abs() --> print only positive Numbers
 print('------ printing positive Numbers ------')
 print(neg_float)
