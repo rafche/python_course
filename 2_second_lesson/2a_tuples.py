@@ -43,6 +43,12 @@ print('len of tuple_3 = {}'.format(len(tuple_1)))
 for element in tuple_3:
     print(element, ' -- the type is {}'.format(type(element)))
 
+# packing tuples
+diex = 8
+diey = 12
+
+coord = (diex, diey)
+
 
 # unpacking tuples,
 

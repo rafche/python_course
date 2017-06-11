@@ -120,6 +120,7 @@ print('\n\n-----------\n\n')
 # ----------- while loop -----------
 # the loop is running until the statement is False
 # python doesn't support x++
+# be careful to don't produce an infinite loop
 
 x = 0
 while x < 10:

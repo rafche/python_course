@@ -53,7 +53,7 @@ print(datetime.date.isocalendar(datetime.date(day=13, month=5, year=1998)))
 # calculate datedifferenz
 
 
-# ex_3_1 write a function that returns your age, input should be your birthday
+# ex_3_1 write a function that returns your age ( in years), input should be your birthday
 # ex_3_2 write a function that returns remaining days a date
 
 print('\n-----------\n\n')

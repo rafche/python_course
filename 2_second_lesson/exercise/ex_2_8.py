@@ -1,6 +1,5 @@
 """
-hangman,
-nearly finished
+hangman the game
 """
 from randomwordgenerator import randomwordgenerator
 
