@@ -114,6 +114,7 @@ print('\n\n-----------\n\n')
 
 
 # let's try some exercises
+
 # ex_1_7 find the longest sequence of increasing letters in a String
 
 

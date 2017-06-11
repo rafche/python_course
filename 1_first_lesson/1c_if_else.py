@@ -57,4 +57,4 @@ print(type(ex_bool))
 
 
 # Let's do some exercises
-# ex1_6 type in your full name, an check which name is longer
+# ex1_5 type in your full name, an check which name is longer

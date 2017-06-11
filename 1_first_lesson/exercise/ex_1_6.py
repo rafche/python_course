@@ -1,13 +1,20 @@
 """
---> first and second name, <-- longer name
+--> input number, <-- true / false
+it is a simple guessing the number  game
 """
 
-first_name = input('please type in your first name \n')
-second_name = input('please type in your second name \n')
+secret_number = 42
 
-if len(first_name) > len(second_name):
-    print('your first name is longer than your second name')
-elif len(first_name) < len(second_name):
-    print('your second name is longer than your first name')
+usernumber = int(input('please guess the secret number,(0 - 99)\n'))
+
+while not usernumber == secret_number:
+
+    if usernumber < secret_number:
+        print('your guessed number is too low')
+    elif usernumber > secret_number:
+        print('your guessed number is too high')
+
+    usernumber = int(input('please give it another try\n'))
+
 else:
-    print('your first and second name have the same amount of characters')
+    print(f'you guessed the secret number, {secret_number}')
