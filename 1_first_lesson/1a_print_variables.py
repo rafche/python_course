@@ -1,13 +1,20 @@
 # declaration
 # http://pep8.org/
 # https://www.python.org/dev/peps/pep-0008/
+
 # python doesn't care which value your variable has
+
+# The characters must all be letters, digits, or underscores _,
+# and must start with a letter.
+# punctuation and blanks are not allowed.
 pos_int = 3
 neg_int = - 4
 pos_float = 3.14159265359
 fake_int = '3'
 string_ = 'hello world'
 neg_float = pos_float * -1
+pos_int += 1
+
 
 
 # print() --> Output Console
