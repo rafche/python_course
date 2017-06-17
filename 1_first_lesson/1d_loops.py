@@ -133,7 +133,8 @@ print('\n\n-----------\n\n')
 
 # can also apply to truthiness of objects
 
-w = ['one', 'two', 'three', 'four', 'five']
+w = ['one', 'two', 'three'
+    , 'four', 'five']
 
 while w:
     print(w)
