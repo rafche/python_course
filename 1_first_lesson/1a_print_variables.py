@@ -19,6 +19,7 @@ pos_int += 1
 
 # print() --> Output Console
 print('------ printing Numbers ------')
+print(pos_float)
 print(pos_int)
 print(neg_int)
 print(pos_float)
@@ -121,9 +122,8 @@ print('------------\n\n')
 
 # Type Conversion
 # str()     -->     for String
-# int()     -->     for String
-# chr()     -->     for character
-# str()     -->     for String
+# int()     -->     for Integer
+# chr()     -->     for charac  ter
 # floats()   -->     for float
 
 print('------ casting to diff. Formats ------')
