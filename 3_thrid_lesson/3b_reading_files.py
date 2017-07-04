@@ -1,4 +1,4 @@
-# reading files, use
+# reading files
 # use with, it close the file automatically after reading
 
 
