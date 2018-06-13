@@ -19,6 +19,7 @@ pos_int += 1
 
 # print() --> Output Console
 print('------ printing Numbers ------')
+print(pos_float)
 print(pos_int)
 print(neg_int)
 print(pos_float)
@@ -59,7 +60,7 @@ print('------ printing sentences with placeholder ------')
 print('The sum of', pos_int, 'and', neg_int, 'is', pos_int + neg_int)
 print('The sum of {} and {} is {}'.format(pos_int, neg_int, pos_int + neg_int))
 print('The sum of ' + str(pos_int) + ' and ' + str(neg_int) + ' is '+ str(pos_int + neg_int))
-
+print(f'The sum of {pos_int} and {neg_int} is {pos_int + neg_int}')
 
 # print string & a number is not working with plus
 # print(a + d)
@@ -121,9 +122,8 @@ print('------------\n\n')
 
 # Type Conversion
 # str()     -->     for String
-# int()     -->     for String
-# chr()     -->     for character
-# str()     -->     for String
+# int()     -->     for Integer
+# chr()     -->     for charac  ter
 # floats()   -->     for float
 
 print('------ casting to diff. Formats ------')

@@ -52,7 +52,7 @@ BC41017354""".format('ADEE7N'))
 
 print('\n\n')
 
-location = 'E7034A7D12'
+location = '##########'
 
 print(f"""3A18EBB29E
 F7267EC8EE
